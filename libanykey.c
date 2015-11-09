@@ -4,6 +4,7 @@
 /* POSIX */
 #include<termios.h>
 #include<poll.h>
+#include<unistd.h>
 
 /* C89 */
 #include<stdlib.h> 
