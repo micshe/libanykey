@@ -45,7 +45,7 @@ in theory the same trick can be used to draw full-color pixel images *into* the 
 
 a work-around would be to temporarily reparent or place a drawable window into or ontop of the software terminal's window.  this would be more like a screen-mode then live graphics though, and would require more of a support framework.
 
-might give it a shot in future.  it'd be useful for mucking around with zero-memory-widgets/imeediate-mode-gui libraries, and games.
+might give it a shot in future.  it'd be useful for mucking around with.
 
 #OSX support
 - unknown.  i'm sure there's a similar trick can could be pulled in OSX, but i've no idea what it is.
