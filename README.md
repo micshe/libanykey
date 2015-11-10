@@ -53,3 +53,15 @@ might give it a shot in future.  it'd be useful for mucking around with.
 #Wayland support
 - unknown.  again, i'm sure a similar trick could be performed, but haven't looked into it yet.
 
+#readanykey tool
+simple libanykey tool, for use in shellscripts or via a popen() command.
+
+#sh example
+ todo
+
+#python subprocess example
+ todo
+
+#C popen() example
+ todo
+
