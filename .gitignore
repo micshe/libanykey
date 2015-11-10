@@ -30,3 +30,8 @@
 
 # Debug files
 *.dSYM/
+
+# Project Specific Files 
+test
+readanykey
+
