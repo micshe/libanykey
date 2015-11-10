@@ -15,14 +15,14 @@ libanykey takes care of hiding the X11 connection, and draining the keypresses f
 - suckless-terminal (st)
 - terminator (GNOME-2 VTE widget based)
 - xfce4-term (GNOME VTE widget based)
+- terminolgoy (enlightenment terminal)
 
 #unco-operating software terminals
 - LXterminal (GNOME-2 VTE widget based) (does not set $WINDOWID)
+- gnome-terminal (GNOME VTE widget based) (sets $WINDOWID, but not reporting events [similar to konsole under xcb])
 
 #untested terminals
-- gnome-terminal (GNOME VTE widget based)
 - guake (GNOME VTE widget based)
-- terminolgoy (enlightenment terminal)
 
 #build
  todo
