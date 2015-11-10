@@ -155,7 +155,11 @@ char* anykey_getkey(struct anykey*anykey)
 		key = XKeysymToString(XKeycodeToKeysym(anykey->display, kev->keycode, 0));
 		if(key==NULL)
 			return NULL;
-		
+
+		if(!strcmp(key,"space"))
+			/* for some reason space isn't capitalised, all others are */
+			key = "Space";
+
 		if(kev->type == KeyPress)
 			sprintf(anykey->cache,"KeyDown %s",key);
 		else if(kev->type == KeyRelease)
